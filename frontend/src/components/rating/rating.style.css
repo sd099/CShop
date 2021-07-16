@@ -1,0 +1,8 @@
+.rating i {
+  color: #243a6f;
+  font-size: 14px;
+}
+
+.rating span {
+  margin: 0.1rem;
+}

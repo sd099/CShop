@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.user-profile-header {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.user-profile-header h2 {
+  font-size: 2rem;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+
+.user-profile-header h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 50%;
+  height: 0.3rem;
+  z-index: 1;
+}
+
+/* update form */
+.update-form .form-control {
+  font-size: 15px;
+}
+
+.update-form .form-control,
+.form-control:focus,
+.input-group-text {
+  border-color: #e1e1e1;
+}
+
+.update-form .form-control,
+.btn {
+  border-radius: 3px;
+}
+
+.update-form {
+  font-family: "Varela Round", sans-serif;
+  margin: 20px auto 0 auto;
+  padding: 22px 0;
+}
+
+.update-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.update-form h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.update-form hr {
+  margin: 0 -30px 20px;
+}
+
+.update-form .form-group {
+  margin-bottom: 20px;
+}
+
+.update-form label {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.update-form .form-control {
+  min-height: 38px;
+  box-shadow: none !important;
+}
+
+.update-form .input-group-addon {
+  max-width: 42px;
+  text-align: center;
+}
+
+.update-form.btn,
+.update-form .btn:active {
+  font-weight: bold;
+  background: #19aa8d !important;
+  border: none;
+}
+
+.update-form .cus-b {
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.update-form .btn:hover,
+.update-form .btn:focus {
+  background: #179b81 !important;
+}
+
+.update-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.update-form a:hover {
+  text-decoration: none;
+}
+
+.update-form form a {
+  color: #19aa8d;
+  text-decoration: none;
+}
+
+.update-form form a:hover {
+  text-decoration: underline;
+}
+
+.update-form .fa {
+  font-size: 21px;
+}
+
+.update-form .fa-paper-plane {
+  font-size: 18px;
+}
+
+.update-form .fa-check {
+  color: #fff;
+  left: 17px;
+  top: 18px;
+  font-size: 7px;
+  position: absolute;
+}

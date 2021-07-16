@@ -1,0 +1,79 @@
+.section-banner {
+  height: 30rem;
+}
+
+.product-banner {
+  width: 100vw;
+  display: flex;
+  height: 30rem;
+  background-color: #243a6f;
+}
+.product-banner .left {
+  width: 50vw;
+}
+.product-banner .left img {
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+}
+
+.product-banner .right {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.6rem;
+}
+
+.product-banner .content h2 {
+  color: #fbb419;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.product-banner .content .discount {
+  color: #b888ff;
+}
+
+.product-banner .content h1 span {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  display: block;
+  line-height: 1;
+}
+
+.btn0 {
+  background-color: red;
+  height: 45px;
+  width: 150px;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn0:hover {
+  background-color: white;
+  color: red;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 1224px) {
+  .product-banner .left {
+    display: none;
+  }
+
+  .product-banner .right {
+    width: 100vw;
+  }
+
+  .product-banner .content h1 span {
+    font-size: 3rem;
+  }
+
+  .product-banner .content h2 {
+    font-size: 2rem;
+  }
+}

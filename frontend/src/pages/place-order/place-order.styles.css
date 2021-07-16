@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.place-order-container {
+  font-family: Poppins;
+}
+
+.place-order-container h2 {
+  font-size: 28px;
+  color: #243a6f;
+}
+
+.place-order-container button {
+  background-color: #243a6f;
+}
+
+.place-order-container button:hover {
+  background-color: #162547;
+}

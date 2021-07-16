@@ -1,0 +1,23 @@
+.edit-user-title {
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+.edit-user-title h2 {
+  font-size: 2rem;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}
+
+.edit-user-title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 50%;
+  height: 0.3rem;
+  z-index: 1;
+}

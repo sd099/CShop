@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.order-view-container {
+  font-family: Poppins;
+}
+
+.order-view-container h2 {
+  font-size: 24px;
+  color: #243a6f;
+}
+
+.order-view-container .order-view-title h1 {
+  margin: 30px auto 10px auto;
+  font-size: 30px;
+  color: #243a6f;
+}
+
+.order-view-container button {
+  background-color: #243a6f;
+}
+
+.order-view-container button:hover {
+  background-color: #162547;
+}
+
+.StripeCheckout {
+  width: 100%;
+}

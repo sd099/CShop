@@ -1,0 +1,44 @@
+.sub {
+  background-color: rgb(70, 63, 63);
+  height: 20vh;
+}
+
+.sub .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub input {
+  height: 51px;
+  width: 50%;
+  color: black;
+  outline: none;
+  padding: 10px;
+}
+
+.btn1 {
+  height: 50px;
+  width: 50%;
+  color: white;
+  background-color: yellowgreen;
+  outline: none;
+  border: none;
+  margin-left: -2px;
+}
+
+.btn1:hover {
+  background-color: rgb(44, 40, 40);
+  color: white;
+  transition: 0.6s;
+}
+
+.sub .row .fas {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 1224px) {
+  .sub {
+    display: none;
+  }
+}
